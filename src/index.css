@@ -1,0 +1,64 @@
+/* google font rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* besic boiler plate */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+ul li a,
+span,
+div {
+  text-transform: capitalize;
+  font-family: "Rubik", sans-
+}
+
+/* besic boiler plate */
+.dropdown-item:hover {
+  background-color: #eae316;
+  color: rgb(56, 19, 206);
+}
+
+.nav-item .ancor:hover {
+  /* background-color: #eae316; */
+  color: #eae316;
+}
+
+/* mein page css start */
+.option {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+
+}
+
+.option:hover {
+  border-bottom: 1px solid #eae316;
+}
+
+.card-area {
+  background-color: #333;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.card-area ul li {
+  cursor: pointer;
+}
+
+.card-area ul li a {
+  text-decoration: none;
+}
+
+.c-box ul {
+  list-style: none;
+}
+
+.c-box ul li {
+  display: inline-block;
+  margin: 8px;
+  cursor: pointer;
+}
