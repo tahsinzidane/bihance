@@ -7,7 +7,7 @@ function meinPageNav() {
     return (
         <>
             {/* navbar start */}
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-topw">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand text-warning fw-bolder" href="#">
                         <img src={Logo} alt="" srcset="" />
