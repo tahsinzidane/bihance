@@ -39,7 +39,7 @@ div {
   border-bottom: 1px solid #eae316;
 }
 
-.heading{
+.heading {
   font-size: 5rem;
 }
 
@@ -67,14 +67,34 @@ div {
   cursor: pointer;
 }
 
-.mobile-div p{
+.mobile-div p {
   color: #eae316;
   cursor: pointer;
 }
 
-.download-link ul li{
+.download-link ul li {
   cursor: pointer;
   color: #eae316;
-  
+
 }
 
+
+
+/* display break point */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .heading {
+    font-size: 5rem;
+  }
+}
