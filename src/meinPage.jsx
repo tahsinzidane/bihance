@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Card from './mpCard.jsx';
-import 'remixicon/fonts/remixicon.css';
 import Apple from './assets/imgs/Web/apple-fill.svg';
 import Google from './assets/imgs/Web/google-fill.svg';
 import AppQr from './assets/imgs/Web/qr-code-line.svg';
 import Mobile from './assets/imgs/mobile.svg';
+import Ubunto from './assets/imgs/Web/ubuntu-fill.svg';
+import Windows from './assets/imgs/Web/windows-fill.svg';
 
 function MainPage() {
     const initialCardData = [
@@ -195,11 +196,12 @@ function MainPage() {
                             <img className='img-fluid border rounded-3' src={Mobile} style={{ height: '700px' }} alt="" />
                         </div>
 
-                        <div className='col-xxl-6 col-sm-12 mt-5 text-center'>
+                        <div className='col-xxl-6 col-sm-12 mt-5 text-center'> {/* make text center class here */}
                             <h1>
                                 Trade on the go. Anywhere, <br /> anytime.
                             </h1>
 
+                            {/* qr scanner img */}
                             <div className='mt-5'>
                                 <img className='' src={AppQr} style={{
                                     height: '150px',
@@ -210,6 +212,25 @@ function MainPage() {
                                     <h3>iOS and Android</h3>
                                 </div>
                             </div>
+                            {/* qr scanner img */}
+
+                                <div className=' mt-5 download-link'>
+                                    <ul className=''>
+                                        <li className='d-inline-block bg-white m-1 rounded-4 fw-bold '>
+                                            <img src={Windows} style={{
+                                                height: '60px'
+                                            }} alt="" />
+                                        </li>
+                                            for windows
+                                        <li className='d-inline-block bg-white m-1 rounded-4 fw-bold '>
+                                            <img src={Apple} style={{
+                                                height: '60px'
+                                            }} alt="" />
+                                        </li>
+                                            for mac
+                                    </ul>
+                                </div>
+
                         </div>
                     </div>
                 </div>

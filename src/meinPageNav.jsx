@@ -109,7 +109,7 @@ function meinPageNav() {
                             </a></li>
 
                             <li><a href="#">
-                                <button className='btn text-white'>sign up</button>
+                                <button className='btn text-white'>login</button>
                             </a></li>
                         </ul>
                     </div>

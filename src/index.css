@@ -62,3 +62,9 @@ div {
   margin: 8px;
   cursor: pointer;
 }
+
+.download-link ul li{
+  cursor: pointer;
+  color: #eae316;
+  
+}
