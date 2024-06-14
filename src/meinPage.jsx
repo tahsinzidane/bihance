@@ -192,8 +192,9 @@ function MainPage() {
             <div className="container-fluid bg-dark text-white">
                 <div className="container">
                     <div className="row">
-                        <div className='col-xxl-6 col-sm-12 mt-5 text-center'>
+                        <div className='col-xxl-6 col-sm-12 mt-5 text-center mobile-div'>
                             <img className='img-fluid border rounded-3' src={Mobile} style={{ height: '700px' }} alt="" />
+                            <p className='mt-3'>mobile</p>
                         </div>
 
                         <div className='col-xxl-6 col-sm-12 mt-5 text-center'> {/* make text center class here */}

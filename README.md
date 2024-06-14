@@ -1,5 +1,5 @@
 <div align='center'>
-<img  src='../bihance/src/assets/imgs/Web/icons8-binance-arcade-120.png'>
+<img  src='../bihance/src/assets/imgs/Web/icons8-binance-arcade-120.png' alt='logo'>
 </div>
 
 # bihance
