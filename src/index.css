@@ -81,19 +81,22 @@ div {
 
 
 /* display break point */
+
+
 @media (max-width: 480px) {
+
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 834px) {
   .heading {
     font-size: 4rem;
   }
 }
 
-@media (max-width: 480px) {
-  .heading {
-    font-size: 5rem;
-  }
-}
-
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .heading {
     font-size: 5rem;
   }
