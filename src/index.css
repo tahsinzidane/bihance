@@ -82,22 +82,28 @@ div {
 
 /* display break point */
 
+@media screen and (min-width: 375px) {
 
-@media (max-width: 480px) {
 
   .heading {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
-@media (max-width: 834px) {
+@media screen and (min-width: 360px) {
+
+
   .heading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 820px) {
+
+
   .heading {
     font-size: 5rem;
   }
 }
+
+
