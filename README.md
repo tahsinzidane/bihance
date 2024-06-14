@@ -4,4 +4,4 @@
 
 # bihance
 binance is a reactjs project that's still under construction 
- - see live demo [click here]()
+ - see live demo [click here](https://bihance-tsn.vercel.app/)
