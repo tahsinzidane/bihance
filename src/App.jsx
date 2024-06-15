@@ -6,7 +6,7 @@ import MainPage from './meinPage.jsx'
 function App() {
 
   setTimeout(() => {
-    alert('website under development')
+    // alert('website under development')
   }, 5000);
   
   return (
