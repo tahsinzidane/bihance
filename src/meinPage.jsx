@@ -247,37 +247,37 @@ function MainPage() {
                             <h1 className='text-center'>Frequently Asked Questions</h1>
                         </div>
                         {/* option card */}
-                        <div className="col-xl-12 col-sm-12 rounded-3 m-1 optioncard">
+                        <div className="col-xl-12 col-xm-12 rounded-3 m-1 optioncard">
                             <OptionCard heading='1 What is a cryptocurrency exchange?'
                             txt='Cryptocurrency exchanges are digital marketplaces that enable users to buy and sell cryptocurrencies like Bitcoin, Ethereum, and Tether. The Binance exchange is the largest crypto exchange by trade volume.'
                             />
                         </div>
 
-                        <div className="col-xl-12 col-sm-12 rounded-3 m-1 optioncard">
+                        <div className="col-xl-12 col-xm-12 rounded-3 m-1 optioncard">
                             <OptionCard heading='2 What products does Binance provide?'
                                 txt='Cryptocurrency exchanges are digital marketplaces that enable users to buy and sell cryptocurrencies like Bitcoin, Ethereum, and Tether. The Binance exchange is the largest crypto exchange by trade volume.'
                             />
                         </div>
 
-                        <div className="col-xl-12 col-sm-12 rounded-3 m-1 optioncard">
+                        <div className="col-xl-12 col-xm-12 rounded-3 m-1 optioncard">
                             <OptionCard heading='3 How to buy Bitcoin and other cryptocurrencies on Binance'
                                 txt='There are several ways to buy cryptocurrencies on Binance. You can use a credit/debit card, cash balance, or Apple Pay/Google Pay to purchase crypto on Binance. Before getting started, please make sure you’ve completed Identity Verification for your Binance account.'
                             />
                         </div>
 
-                        <div className="col-xl-12 col-sm-12 rounded-3 m-1 optioncard">
+                        <div className="col-xl-12 col-xm-12 rounded-3 m-1 optioncard">
                             <OptionCard heading='4 How to track cryptocurrency prices'
                                 txt='The easiest way to track the latest cryptocurrency prices, trading volumes, trending altcoins, and market cap is the Binance Cryptocurrency Directory. Click on the coins to know historical coin prices, 24-hour trading volume, and the price of cryptocurrencies like Bitcoin, Ethereum, BNB and others in real-time.'
                             />
                         </div>
 
-                        <div className="col-xl-12 col-sm-12 rounded-3 m-1 optioncard">
+                        <div className="col-xl-12 col-xm-12 rounded-3 m-1 optioncard">
                             <OptionCard heading='5 How to trade cryptocurrencies on Binance'
                                 txt='You can trade hundreds of cryptocurrencies on Binance via the Spot, Margin, Futures, and Options markets. To begin trading, users need to register an account, complete identity verification, buy/deposit crypto, and start trading.'
                             />
                         </div>
 
-                        <div className="col-xl-12 col-sm-12 rounded-3 m-1 optioncard">
+                        <div className="col-xl-12 col-xm-12 rounded-3 m-1 optioncard">
                             <OptionCard heading='6 How to earn from crypto on Binance'
                                 txt='Users can earn rewards on more than 180+ cryptocurrencies by using one of the products offered on Binance Earn. Our platform offers dozens of digital assets like Bitcoin, Ethereum, and stablecoins.'
                             />
