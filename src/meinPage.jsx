@@ -94,7 +94,7 @@ function MainPage() {
                 <div className="container">
                     <div className="row">
                         {/* left sided content */}
-                        <div className="col-xxl-6 col-md-12 mt-5">
+                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
                             <h1 className='ms-5 py-5 heading'>
                                 <span className='text-warning'>201,575,188 </span> <br />
                                 USERS <br />
@@ -150,7 +150,7 @@ function MainPage() {
                         </div>
 
                         {/* right sided content */}
-                        <div className="col-xxl-6 col-md-12 mt-5">
+                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
                             <div className="card-area">
                                 <span className='m-2 option' onClick={handlePopularData}>popular</span>
                                 <span className='ms-5 m-2 option' onClick={handleNewListingData}>new listing</span>
@@ -193,12 +193,12 @@ function MainPage() {
             <div className="container-fluid bg-dark text-white">
                 <div className="container">
                     <div className="row">
-                        <div className='col-xxl-6 col-sm-12 mt-5 text-center mobile-div'>
+                        <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 text-center mobile-div'>
                             <img className='img-fluid border rounded-3' src={Mobile} style={{ height: '700px' }} alt="" />
                             <p className='mt-3'>mobile</p>
                         </div>
 
-                        <div className='col-xxl-6 col-sm-12 mt-5 text-center'> {/* make text center class here */}
+                        <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 text-center'> {/* make text center class here */}
                             <h1>
                                 Trade on the go. Anywhere, <br /> anytime.
                             </h1>
