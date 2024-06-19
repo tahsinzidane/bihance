@@ -7,6 +7,7 @@ import Tiktok from './assets/imgs/Web/tiktok-fill.svg'
 
 
 function meinPageFooter() {
+    
     return (
         <>
             <div className="container-flued upperfooter">
@@ -121,7 +122,6 @@ function meinPageFooter() {
                                 <li><a href="#">Listing Application</a></li>
                                 <li><a href="#">Institutional & VIP Services</a></li>
                                 <li><a href="#">Labs</a></li>
-                                <li><a href="#">donate for palestine</a></li>
                                 <li className='fw-bold'>Learn</li>
                                 <li><a href="#">Learn & Earn</a></li>
                                 <li><a href="#">Browse Crypto Prices</a></li>
@@ -148,7 +148,7 @@ function meinPageFooter() {
                                 <li><a href="#">Announcements</a></li>
                                 <li><a href="#">news</a></li>
                                 <li><a href="#">press</a></li>
-                                <li><a href="#">donate for palestine</a></li>
+                                <li> <a href="https://www.wesupportpalestine.net/">donate for palestine</a></li>
                                 <li><a href="#">legal</a></li>
                                 <li><a href="#">terms</a></li>
                                 <li><a href="#">privacy</a></li>
